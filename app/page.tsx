@@ -5,10 +5,10 @@ import Link from "next/link"
 import Image from "next/image"
 import { Check, Loader2, Upload } from 'lucide-react'
 
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "../components/ui/button"
+import { Input } from "../components/ui/input"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "../components/ui/dialog"
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
 
 const LeftColumn = () => (
   <div className="flex-1 py-8 lg:py-20">
