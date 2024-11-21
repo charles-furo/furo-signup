@@ -5,7 +5,6 @@ const nextConfig = {
   images: {
     domains: ['localhost', 'vercel.app'],
   },
-  transpilePackages: ['lucide-react'],
 }
 
 module.exports = nextConfig
